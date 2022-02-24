@@ -1,0 +1,12 @@
+
+/*Posso agrupar tanto ID como classe para diminuir o código como no exemplo abaixo*/
+h1#titulo{
+    color:blue;
+    font-family:Arial;
+}
+
+header > .missao{
+    color:red;
+}
+
+

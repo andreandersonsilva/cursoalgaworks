@@ -5,8 +5,56 @@ h1#titulo{
     font-family:Arial;
 }
 
+/*Para pais eu posso definir pelas classes ou ids separando com o maior que >*/
 header > .missao{
     color:red;
 }
 
+.caixa1{
+    background-color: blue;
+    color: white;
+}
 
+.caixa2{
+    background-color: rgb(32, 102, 35);
+    color: rgb(0,0,0,);
+}
+
+.caixa3{
+    background-color: rgb(255,200,0);
+    color:rgb(255,255,255);
+}
+
+/*Formato hexadecimal*/
+.caixa4{
+    background-color: #FFC800;
+    color: #ddff00;
+}
+
+.caixa5{
+    background-color:#df0; /*Formto abreviado de hexadecimal*/
+    color:#000;
+}
+
+.nome{
+    color:#f00;
+    font-size:24px;
+    /*Fontes que tem palavras separadas devemos colocar entre aspas duplas. Outra dica é de colocar uma segunda fonta caso o navegador não contenha a primeira ele vai por ordem de sequência e pula para a próxima*/
+    font-family: "trebuchet MS", sans-serif;
+    font-style:italic;
+    font-weight: bold; /*Espessura da fonte*/
+    text-align: center;
+
+    /* Resumindo o código na sequência
+    font: italic bold 24px "trebuchet MS", sans-serif;
+    */
+}
+
+.segmento{
+    font: italic bold 24px "trebuchet MS", sans-serif;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-align: center;
+    
+
+}
